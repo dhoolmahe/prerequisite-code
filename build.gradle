@@ -21,8 +21,8 @@ jar {
 
 assignments {
     apiUrl = "https://caddy.pal.pivotal.io"
-    emails = [""]
-    cohortIdentifier = ""
+    emails = ["mahendran.visvanathan@cognizant.com"]
+    cohortIdentifier = "Mahi"
 }
 
 repositories {
