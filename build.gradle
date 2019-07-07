@@ -20,7 +20,7 @@ jar {
 }
 
 assignments {
-    apiUrl = "https://caddy.pal.pivotal.io"
+    apiUrl = "https://waveland.education.pivotal.io"
     emails = ["mahendran.visvanathan@cognizant.com"]
     cohortIdentifier = "Mahi"
 }
