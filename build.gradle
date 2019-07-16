@@ -1,6 +1,6 @@
 buildscript {
     repositories {
-        jcenter()
+        maven { url "http://jcenter.bintray.com"}
         maven { url("http://platform-acceleration-lab-maven.s3.amazonaws.com") }
     }
 
@@ -20,13 +20,13 @@ jar {
 }
 
 assignments {
-    apiUrl = "https://caddy.pal.pivotal.io"
+    apiUrl = "https://cognizant-waveland.education.pivotal.io/"
     emails = ["mahendran.visvanathan@cognizant.com"]
     cohortIdentifier = "Mahi"
 }
 
 repositories {
-    jcenter()
+    maven { url "http://jcenter.bintray.com"}
 }
 
 dependencies {
